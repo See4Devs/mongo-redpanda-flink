@@ -6,7 +6,7 @@ rsconf = {
 
 rs.initiate(rsconf);  //initiating the replica set configured above
 
-rs.status();  // returning the current status of the replcation set
+rs.status();  // returning the current status of the replication set
 
 
 db = db.getSiblingDB("e-inventory"); // Creating database
